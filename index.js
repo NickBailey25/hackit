@@ -1,4 +1,6 @@
-function foobar() {
-	console.log("called foobar");
-	alert("hello world");
+function buttonClick() {
+  var element = document.getElementById("textgrab");
+  var content = element.value;
+  alert(content);
+  console.log(content);
 }
